@@ -8,10 +8,11 @@
 
 body {
   font-size: 0.9rem;
+  width: 100%;
 }
 
 .nooverflow {
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 .page-wrapper .sidebar-wrapper,
@@ -183,7 +184,11 @@ select[readonly] {
 
 .relativecontainer {
   position: absolute;
-  margin-left: 23%;
+  margin-left: 20%;
+}
+
+.lowerbox {
+ width: 100%;
 }
 
 .lowerbox {
@@ -660,9 +665,29 @@ button.agrobtn {
   letter-spacing: 0em;
   text-align: left;
   color: rgb(255, 255, 255);
+<<<<<<< HEAD
+=======
   border-radius: 20px;
 }
 
+
+
+button.agrobtnblacktext {
+  background-color: #f8b501;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgb(0, 0, 0);
+>>>>>>> aeb096df5e362921c3c5ab9ebfd15a5e987367a8
+  border-radius: 20px;
+}
+
+.mb-3 {
+  margin-top: 5%;
+}
 
 
 button.agrobtnblacktext {
@@ -1589,7 +1614,11 @@ button.saveyourslot:hover {
 .relativecontainer {
   position: relative;
   margin-bottom: 5%;
+<<<<<<< HEAD
+  width: 100%;
+=======
   width: 1300px;
+>>>>>>> aeb096df5e362921c3c5ab9ebfd15a5e987367a8
 }
 
 .wsmall {
@@ -2750,6 +2779,11 @@ ul.signupsignintabs li a.active {
   .xaxisspacing.nospaceorpadding {
     margin-left: 0;
     margin-right: 0;
+  }
+  .relativecontainer {
+    position: absolute;
+    margin: 0 auto;
+    width: 85%;
   }
 }
 @media (max-width: 447px) {
